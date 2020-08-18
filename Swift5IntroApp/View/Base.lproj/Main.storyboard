@@ -7,13 +7,32 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Login Movie View Controller-->
         <scene sceneID="Dri-Ch-wuX">
             <objects>
-                <viewController id="g2J-TL-IAr" sceneMemberID="viewController">
+                <viewController id="g2J-TL-IAr" customClass="LoginMovieViewController" customModule="Swift5IntroApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8hA-PQ-dEq">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view alpha="0.55000000000000004" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1fE-ZD-9Mw">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PuD-Ex-5gD">
+                                <rect key="frame" x="117" y="409" width="201" height="54"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemTealColor" red="0.35294117650000001" green="0.7843137255" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <state key="normal" title="ログイン">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="54L-xt-AFv" kind="show" id="LfV-2k-55f"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="hd9-pY-fyd"/>
                     </view>
@@ -22,6 +41,22 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wJ2-pN-TWP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1847.826086956522" y="117.85714285714285"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="ObH-EJ-ZGa">
+            <objects>
+                <viewController id="54L-xt-AFv" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="MuY-QA-Kkf">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="1SQ-aw-8MX"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="xue-vK-Zd4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vNg-Gl-Cpr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2628" y="118"/>
         </scene>
         <!--Intro View Controller-->
         <scene sceneID="tne-QT-ifu">
