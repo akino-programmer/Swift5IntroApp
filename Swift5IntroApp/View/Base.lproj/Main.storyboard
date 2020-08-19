@@ -29,6 +29,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
+                                    <action selector="login:" destination="g2J-TL-IAr" eventType="touchUpInside" id="BkI-35-sRU"/>
                                     <segue destination="54L-xt-AFv" kind="show" id="LfV-2k-55f"/>
                                 </connections>
                             </button>
@@ -42,10 +43,10 @@
             </objects>
             <point key="canvasLocation" x="1847.826086956522" y="117.85714285714285"/>
         </scene>
-        <!--View Controller-->
+        <!--Base View Controller-->
         <scene sceneID="ObH-EJ-ZGa">
             <objects>
-                <viewController id="54L-xt-AFv" sceneMemberID="viewController">
+                <viewController id="54L-xt-AFv" customClass="BaseViewController" customModule="Swift5IntroApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="MuY-QA-Kkf">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

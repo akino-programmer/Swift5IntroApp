@@ -19,6 +19,7 @@
 		E94CB0CB24E824A800FB3577 /* 4.json in Resources */ = {isa = PBXBuildFile; fileRef = E94CB0CA24E824A800FB3577 /* 4.json */; };
 		E94CB0CD24E824B000FB3577 /* 5.json in Resources */ = {isa = PBXBuildFile; fileRef = E94CB0CC24E824B000FB3577 /* 5.json */; };
 		E94CB0D124E8253B00FB3577 /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E94CB0D024E8253B00FB3577 /* IntroViewController.swift */; };
+		E98E1AF024EDCF7E0086718B /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98E1AEF24EDCF7E0086718B /* BaseViewController.swift */; };
 		E9CE3A0824EC86B700D5CB89 /* LoginMovieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9CE3A0724EC86B700D5CB89 /* LoginMovieViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -39,6 +40,7 @@
 		E94CB0CA24E824A800FB3577 /* 4.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 4.json; sourceTree = "<group>"; };
 		E94CB0CC24E824B000FB3577 /* 5.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 5.json; sourceTree = "<group>"; };
 		E94CB0D024E8253B00FB3577 /* IntroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
+		E98E1AEF24EDCF7E0086718B /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		E9CE3A0724EC86B700D5CB89 /* LoginMovieViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginMovieViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -129,6 +131,7 @@
 				E94CB0AF24E81EEB00FB3577 /* SceneDelegate.swift */,
 				E94CB0D024E8253B00FB3577 /* IntroViewController.swift */,
 				E9CE3A0724EC86B700D5CB89 /* LoginMovieViewController.swift */,
+				E98E1AEF24EDCF7E0086718B /* BaseViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -253,6 +256,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E98E1AF024EDCF7E0086718B /* BaseViewController.swift in Sources */,
 				E94CB0D124E8253B00FB3577 /* IntroViewController.swift in Sources */,
 				E9CE3A0824EC86B700D5CB89 /* LoginMovieViewController.swift in Sources */,
 				E94CB0AE24E81EEB00FB3577 /* AppDelegate.swift in Sources */,

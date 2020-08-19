@@ -47,6 +47,16 @@ class LoginMovieViewController: UIViewController {
         self.navigationController?.isNavigationBarHidden = true
     }
     
+    
+    @IBAction func login(_ sender: Any) {
+        
+        player.pause()
+        
+    }
+    
+    
+    
+    
 
     /*
     // MARK: - Navigation
