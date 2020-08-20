@@ -21,6 +21,7 @@
 		E94CB0D124E8253B00FB3577 /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E94CB0D024E8253B00FB3577 /* IntroViewController.swift */; };
 		E98E1AF024EDCF7E0086718B /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98E1AEF24EDCF7E0086718B /* BaseViewController.swift */; };
 		E9CE3A0824EC86B700D5CB89 /* LoginMovieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9CE3A0724EC86B700D5CB89 /* LoginMovieViewController.swift */; };
+		E9E159B924EF24A00093FE47 /* Page1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E159B824EF24A00093FE47 /* Page1ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		E94CB0D024E8253B00FB3577 /* IntroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
 		E98E1AEF24EDCF7E0086718B /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		E9CE3A0724EC86B700D5CB89 /* LoginMovieViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginMovieViewController.swift; sourceTree = "<group>"; };
+		E9E159B824EF24A00093FE47 /* Page1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page1ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +134,7 @@
 				E94CB0D024E8253B00FB3577 /* IntroViewController.swift */,
 				E9CE3A0724EC86B700D5CB89 /* LoginMovieViewController.swift */,
 				E98E1AEF24EDCF7E0086718B /* BaseViewController.swift */,
+				E9E159B824EF24A00093FE47 /* Page1ViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 				E98E1AF024EDCF7E0086718B /* BaseViewController.swift in Sources */,
 				E94CB0D124E8253B00FB3577 /* IntroViewController.swift in Sources */,
 				E9CE3A0824EC86B700D5CB89 /* LoginMovieViewController.swift in Sources */,
+				E9E159B924EF24A00093FE47 /* Page1ViewController.swift in Sources */,
 				E94CB0AE24E81EEB00FB3577 /* AppDelegate.swift in Sources */,
 				E94CB0B024E81EEB00FB3577 /* SceneDelegate.swift in Sources */,
 			);

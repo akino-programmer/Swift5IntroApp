@@ -9,7 +9,7 @@
 import UIKit
 import SegementSlide
 
-class BaseViewController: SegementSlideViewController {
+class BaseViewController: SegementSlideDefaultViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -54,6 +54,24 @@ class BaseViewController: SegementSlideViewController {
 
     }
     
+    override var titlesInSwitcher: [String]{
+        
+        return ["TOP","Abemanews","Yahoo!!","IT","Buzz","CNN"]
+        
+    }
+    
+    override func segementSlideContentViewController(at index: Int) -> SegementSlideContentScrollViewDelegate? {
+        
+        switch index{
+            
+        case 0:
+            KMOD_RETURN_FAILURE
+            
+        }
+        
+        
+    }
+    
     
 //    override var headerView: UIView?{
 //
@@ -85,4 +103,4 @@ class BaseViewController: SegementSlideViewController {
     }
     */
 
-}
+
